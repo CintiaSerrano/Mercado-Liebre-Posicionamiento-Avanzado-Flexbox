@@ -19,6 +19,9 @@ font-family: 'Roboto', sans-serif; */
     text-decoration: none;
 }
 
+body{
+    background-color: var(--colorGrisClaro);
+}
 body header{
     background-color: var(--colorAmarillo);
     padding-left: 10px;
@@ -27,24 +30,33 @@ body header{
 body header div{
     padding-left: 10px;
 }
+body header div img{
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 body header div input.buscador{
     font-size: 1rem;
     width: 50%;
+    
 }
 body header i{
     padding-left: 10px;
+    
 }
 
 body header div.comprar{
     padding: 5px;
     text-align: center;
+    margin-top: 15px;
 }
 body header div h4{
     display: inline;
 }
 body header nav{
     padding: 10px 0;
+    display: none;
 }
 body header nav ul li{
     list-style: none;
@@ -60,6 +72,9 @@ body header div.buguer-menu{
     background-color: var(--colorCeleste);
     padding: 10px 10px;
     color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h3{
@@ -67,16 +82,43 @@ h3{
     margin-top: 15px;
 }
 
-body main{
-    padding: 0 5%;
+body main img.banner{
+    width: 100%;
 }
-
+body main section h3{
+    margin: 10px;
+    color: var(--colorGrisOscuro);
+}
+body main section article{
+    margin: 10px;
+}
+body main section article img{
+    width: 100%;
+    border-bottom: 3px solid var(--colorGrisClaro);
+}
+body main section article div.description{
+    
+    padding: 15px;
+}
+body main section article i{
+    color: var(--colorVerde);
+    padding: 5px;
+}
 body main section article span{
+    display: block;
     font-size: 18px;
 }
-
+body main section article.products{
+    background-color: white;
+}
 body main section article p{
     font-size: 16px;
+    color: var(--colorVerde);
+}
+body main section article h4{
+    color: var(--colorGrisOscuro);
+    margin-top: 15px;
+    font-weight: 400;
 }
 /*footer*/
 #icono{
